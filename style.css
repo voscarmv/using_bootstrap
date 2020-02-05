@@ -111,6 +111,7 @@ background-color: yellowgreen;
 
 .nav-menu{
   display: flex;
+  /* margin-left: 0; */
   justify-content: flex-start;
   background-color: lightpink;
 }
@@ -118,9 +119,16 @@ background-color: yellowgreen;
 .nav-item{
   background-color: red;
   padding: 12px;
-  margin: 2px;
+  border-left: 1px solid gray;
+  /* margin: 2px; */
 }
 
 .main-header{
   display: flex;
 }
+
+.navbar {
+  /* margin-left:0; */
+  /* padding-left:0; */
+}
+
