@@ -101,6 +101,22 @@ $ cat index.html | grep '<section class="' | sed 's/.*section class="/\./;s/">/ 
   background-color: yellow;
 }
 
+.document-header {
+background-color: yellowgreen;
+}
+
 .inline-menu{
   display: flex;
+}
+
+.nav-menu{
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* background-color: lightpink; */
+}
+
+.nav-item{
+  background-color: red;
+  /* padding: 12px; */
+  /* margin: 2px; */
 }
