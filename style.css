@@ -118,13 +118,20 @@ background-color: yellowgreen;
 
 .nav-item{
   background-color: red;
-  padding: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: -20px;
   border-left: 1px solid gray;
   /* margin: 2px; */
 }
 
 .main-header{
   display: flex;
+  padding-bottom: 20px;
+}
+
+.signin-subscribe{
+display: flex;
 }
 
 .navbar {
