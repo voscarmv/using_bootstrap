@@ -10,6 +10,13 @@
   background-color: #0000ff;
 }
 
+/*
+
+Classes generated using
+$ cat index.html | grep '<section class="' | sed 's/.*section class="/\./;s/">/ {\nbackground-color:;\n}\n/'
+
+*/
+
 .highlighted {
   background-color: aqua;
   }
