@@ -116,11 +116,17 @@ background-color: yellowgreen;
   background-color: lightpink;
 }
 
+.menu-wrap{
+  /* display: flex; */
+  padding: 12px;
+  margin-top: -20px;
+  background-color: lightseagreen;
+}
+
 .nav-item{
   background-color: red;
   padding-left: 12px;
   padding-right: 12px;
-  margin-top: -20px;
   border-left: 1px solid gray;
   /* margin: 2px; */
 }
@@ -128,6 +134,7 @@ background-color: yellowgreen;
 .main-header{
   display: flex;
   padding-bottom: 20px;
+  padding-top: 30px;
   justify-content: space-between;
 }
 
