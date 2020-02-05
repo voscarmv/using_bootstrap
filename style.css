@@ -109,6 +109,12 @@ background-color: yellowgreen;
   display: flex;
 }
 
+.container-fluid{
+  /* margin: 15px; */
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .nav-menu{
   display: flex;
   /* margin-left: 0; */
