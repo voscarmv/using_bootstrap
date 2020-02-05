@@ -142,8 +142,14 @@ background-color: yellowgreen;
 display: flex;
 }
 
-.navbar {
-  /* margin-left:0; */
-  /* padding-left:0; */
+.header-date{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
+.signin-subscribe{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
