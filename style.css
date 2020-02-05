@@ -1,0 +1,80 @@
+.bg-1{
+  background-color: #ff0000;
+}
+
+.bg-2{
+  background-color: #00ff00;
+}
+
+.bg-3{
+  background-color: #0000ff;
+}
+
+.highlighted {
+  background-color: aqua;
+  }
+  
+  .featured-stories {
+  background-color: blueviolet;
+  }
+  
+  .top-travel-more {
+  background-color: chocolate;
+  }
+  
+  .top-story {
+  background-color: coral;
+  }
+  
+  .culture-travel {
+  background-color: brown;
+  }
+  
+  .more-stories {
+  background-color: aqua;
+  }
+  
+  .opinion-latest-signup {
+  background-color: lightblue;
+  }
+  
+  .opinion {
+  background-color: lightcoral;
+  }
+  
+  .latest-news {
+  background-color:lightgreen;
+  }
+  
+  .sign-up {
+  background-color:skyblue;
+  }
+  
+  .in-the-magazine {
+  background-color:pink;
+  }
+  
+  .newsweek-conversations {
+  background-color:darkcyan;
+  }
+  
+  .editors-pick {
+  background-color:darkorchid;
+  }
+  
+  .featured-slideshows {
+  background-color:darkred;
+  }
+  
+  .subscribe-newsletter {
+  background-color:magenta;
+  }
+  
+  .subscribe {
+  background-color:maroon;
+  }
+  
+  .newsletter {
+  background-color:mediumpurple;
+  }
+  
