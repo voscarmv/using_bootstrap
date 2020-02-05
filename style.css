@@ -100,3 +100,7 @@ $ cat index.html | grep '<section class="' | sed 's/.*section class="/\./;s/">/ 
 .page-footer {
   background-color: yellow;
 }
+
+.inline-menu{
+  display: flex;
+}
