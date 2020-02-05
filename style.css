@@ -1,13 +1,25 @@
-.bg-1{
+.bg-1 {
   background-color: #ff0000;
 }
 
-.bg-2{
+.bg-2 {
   background-color: #00ff00;
 }
 
-.bg-3{
+.bg-3 {
   background-color: #0000ff;
+}
+
+.bg-4{
+  background-color: #00ffff;
+}
+
+.bg-5{
+  background-color: #ffff00;
+}
+
+.bg-6{
+  background-color: #ff00ff;
 }
 
 /*
@@ -19,72 +31,72 @@ $ cat index.html | grep '<section class="' | sed 's/.*section class="/\./;s/">/ 
 
 .highlighted {
   background-color: aqua;
-  }
-  
-  .featured-stories {
+}
+
+.featured-stories {
   background-color: blueviolet;
-  }
-  
-  .top-travel-more {
+}
+
+.top-travel-more {
   background-color: chocolate;
-  }
-  
-  .top-story {
+}
+
+.top-story {
   background-color: coral;
-  }
-  
-  .culture-travel {
+}
+
+.culture-travel {
   background-color: brown;
-  }
-  
-  .more-stories {
+}
+
+.more-stories {
   background-color: aqua;
-  }
-  
-  .opinion-latest-signup {
+}
+
+.opinion-latest-signup {
   background-color: lightblue;
-  }
-  
-  .opinion {
+}
+
+.opinion {
   background-color: lightcoral;
-  }
-  
-  .latest-news {
-  background-color:lightgreen;
-  }
-  
-  .sign-up {
-  background-color:skyblue;
-  }
-  
-  .in-the-magazine {
-  background-color:pink;
-  }
-  
-  .newsweek-conversations {
-  background-color:darkcyan;
-  }
-  
-  .editors-pick {
-  background-color:darkorchid;
-  }
-  
-  .featured-slideshows {
-  background-color:darkred;
-  }
-  
-  .subscribe-newsletter {
-  background-color:magenta;
-  }
-  
-  .subscribe {
-  background-color:maroon;
-  }
-  
-  .newsletter {
-  background-color:mediumpurple;
-  }
-  
-  .page-footer{
-    background-color: yellow;
-  }
+}
+
+.latest-news {
+  background-color: lightgreen;
+}
+
+.sign-up {
+  background-color: skyblue;
+}
+
+.in-the-magazine {
+  background-color: pink;
+}
+
+.newsweek-conversations {
+  background-color: darkcyan;
+}
+
+.editors-pick {
+  background-color: darkorchid;
+}
+
+.featured-slideshows {
+  background-color: darkred;
+}
+
+.subscribe-newsletter {
+  background-color: magenta;
+}
+
+.subscribe {
+  background-color: maroon;
+}
+
+.newsletter {
+  background-color: mediumpurple;
+}
+
+.page-footer {
+  background-color: yellow;
+}
