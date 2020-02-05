@@ -110,13 +110,17 @@ background-color: yellowgreen;
 }
 
 .nav-menu{
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* background-color: lightpink; */
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightpink;
 }
 
 .nav-item{
   background-color: red;
-  /* padding: 12px; */
-  /* margin: 2px; */
+  padding: 12px;
+  margin: 2px;
+}
+
+.main-header{
+  display: flex;
 }
