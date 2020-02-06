@@ -178,8 +178,17 @@ display: flex;
 
 .small-image{
   width: 135px;
+  height: auto;
 }
 
 .culture-category{
   background-color: gray;
+}
+
+.icon-image{
+  width: 50px;
+}
+
+.sign-up{
+  background-color: bisque;
 }
