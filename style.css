@@ -120,6 +120,8 @@ background-color: yellowgreen;
   /* margin-left: 0; */
   justify-content: flex-start;
   background-color: lightpink;
+  /* flex-shrink: 0; */
+  flex-wrap: wrap;
 }
 
 .menu-wrap{
@@ -158,4 +160,12 @@ display: flex;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.article-picture{
+  position: relative;
+}
+
+.image-category{
+  position: absolute;
 }
