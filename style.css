@@ -168,4 +168,10 @@ display: flex;
 
 .image-category{
   position: absolute;
+  bottom:0;
+  left:0;
+}
+
+.article-image{
+  width: 100%;
 }
