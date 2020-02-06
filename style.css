@@ -175,3 +175,11 @@ display: flex;
 .article-image{
   width: 100%;
 }
+
+.small-image{
+  width: 135px;
+}
+
+.culture-category{
+  background-color: gray;
+}
