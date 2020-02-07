@@ -197,5 +197,5 @@ display: flex;
 
 .cover-picture{
   background-image: url(https://d.newsweek.com/en/full/1562430/fea-futuretechces-09-1198129532.jpg?w=466&h=311&q=90&f=130c3646b7506b034455b08ee3709740);
-  /* height: 60%; */
+  height: 70vh;
 }
