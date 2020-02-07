@@ -174,10 +174,12 @@ display: flex;
 
 .article-image{
   width: 100%;
+  align-self: center;
 }
 
 .small-image{
   width: 135px;
+  align-self: center;
   height: auto;
 }
 
