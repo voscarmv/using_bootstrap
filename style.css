@@ -110,7 +110,7 @@ background-color: yellowgreen;
 } */
 
 .top-space-lg{
-  height: 150px;
+  height: 190px;
 }
 
 .top-space{
@@ -249,4 +249,53 @@ li{
     height: 5px;
     background-color: black;
     margin: 6px 0;
+}
+
+.navbar-text{
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.section-header{
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.article-header-sm{
+
+}
+
+.article-header-md{
+
+}
+
+.article-header-lg{
+
+}
+
+.header-date{
+  font-size: 16px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.signin-subscribe{
+  font-size: 18px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.white-text{
+  color: white;
+}
+
+.black-text{
+color: black;
+}
+
+.red-text{
+  color:red;
 }
