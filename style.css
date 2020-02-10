@@ -240,8 +240,9 @@ background-color: yellowgreen;
   width: 600px;
 }
 
-li{
+li, ul{
   list-style: none;
+  padding-left: 0;
 }
 
 .burger-bar{
@@ -262,6 +263,21 @@ li{
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
+  color: gray;
+}
+
+.main-section-header{
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: black;
+}
+
+.secondary-section-header{
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
 }
 
 .article-header-sm{
@@ -298,4 +314,20 @@ color: black;
 
 .red-text{
   color:red;
+}
+
+.red-highlight-text{
+  background-color: red;
+  color: white;
+  padding: 8px;
+}
+
+.article-tag-gray{
+  font-size: 18px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:red;
+  background-color: rgba(240,240,240,.7);
+  /* opacity: 0.1; */
+  padding: 8px;
 }
