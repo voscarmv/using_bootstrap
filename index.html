@@ -11,6 +11,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 
   <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
@@ -82,15 +83,17 @@
     <section class="highlighted row">
       <section class="featured-stories col-lg-3 col-md-6 col-sm-12 order-2 order-md-1">
         <header class="section-header bg-1">FEATURED STORIES</header>
-        <article class="bg-1">
+        <article class="bg-2">
           <div class="article-picture">
             <img class="article-image w-100 align-self-center"
               src="https://d.newsweek.com/en/full/1564617/afghanistan-khost-province-us-military-helicopter.jpg?w=397&h=265&q=90&f=11d06e625e5e642dfaae424e22724969">
-            <span class="article-tag-gray image-category bg-2">WORLD</span>
+            <span class="article-tag-gray image-category">WORLD</span>
           </div>
-          <h3>Exclusive: U.S. Citizen Kidnapped by Taliban Group in Afghanistan</h3>
-          A U.S. government contractor has been captured by the Taliban-aligned Haqqani network in Afghanistan's Khost
-          province and is being held hostage by the Islamist militant group.
+          <h3 class="article-header-large"><a href="#">Exclusive: U.S. Citizen Kidnapped by Taliban Group in Afghanistan</a></h3>
+          <div class="article-text">
+            A U.S. government contractor has been captured by the Taliban-aligned Haqqani network in Afghanistan's Khost
+            province and is being held hostage by the Islamist militant group.
+          </div>
         </article>
         <article class="bg-1">
           <div class="article-picture">
@@ -121,11 +124,13 @@
               <div class="article-picture">
                 <img class="article-image w-100 align-self-center"
                   src="https://d.newsweek.com/en/full/1565407/republicans-come-romneys-support-after-impeachment.jpg?w=591&h=364&f=2b658e3e731ae9724086f75a5f89ae18">
-                <span class="image-category bg-2">POLITICS</span>
+                <span class="article-tag-gray image-category bg-2">POLITICS</span>
               </div>
-              <h3>Republicans Rally Around Mitt Romney After Calls for His Expulsion From GOP</h3>
-              News that Romney would split his votes to convict President Donald Trump for one of the articles of
-              impeachment quickly riled the world of conservative politics.
+              <h3 class="article-header-large"><a href="#">Republicans Rally Around Mitt Romney After Calls for His Expulsion From GOP</a></h3>
+              <div class="article-text">
+                News that Romney would split his votes to convict President Donald Trump for one of the articles of
+                impeachment quickly riled the world of conservative politics.
+              </div>
             </article>
             <article class="bg-3">
               <h5>Senators Who Voted to Convict Trump Represent 18 Million More Americans Than Those Who Voted to
@@ -135,13 +140,15 @@
           </section>
           <section class="culture-travel col-12 order-3 order-sm-3 order-md-2 order-lg-2">
             <header class="section-header bg-1">CULTURE & TRAVEL</header>
-            <div class="culture-articles bg-2 row">
+            <div class="culture-articles bg-5 row">
               <article class="culture-article col-md-6">
                 <img class="article-image w-100 align-self-center"
                   src="https://d.newsweek.com/en/full/1564962/cul-map-undergroundsubways-09-91029419.jpg?w=397&h=265&f=c75ea7fe40bca26ffbb19f21fccf1054">
-                <h6>Subway Stations That Will Stop You in Your Tracks</h6>
-                From space-age designs to murals, artists and architects have transformed these 10 stunning stations
-                around the world into contemplative and artistic spaces.
+                <h6 class="culture-header"><a href="#">Subway Stations That Will Stop You in Your Tracks</a></h6>
+                <div class="article-text gray-text">
+                  From space-age designs to murals, artists and architects have transformed these 10 stunning stations
+                  around the world into contemplative and artistic spaces.
+                </div>
                 <span class="culture-category">Architecture</span>
               </article>
               <article class="culture-article col-md-6">
@@ -173,13 +180,15 @@
           <section class="more-stories col-12 order-2 order-sm-2 order-md-3 order-lg-3">
             <header class="section-header bg-1">MORE STORIES</header>
             <div class="row">
-              <article class="bg-1 d-flex col-lg-12">
+              <article class="bg-5 d-flex col-lg-12">
                 <img class="small-image h-auto align-self-center"
                   src="https://d.newsweek.com/en/full/1565475/2020-olympics-national-stadium-tokyo-japan.jpg?w=135&h=90&f=4b27f3ea0a0edcfa364161664ccaac57">
                 <div>
-                  <h6>Trump Will Be Emboldened After Senate Acquittal: Former Russia Ambassador</h6>
-                  Michael McFaul told Newsweek president will likely interpret his Senate success as proof "he knows
-                  best."
+                  <h6 class="article-header-small"><a href="#">Trump Will Be Emboldened After Senate Acquittal: Former Russia Ambassador</a></h6>
+                  <div class="article-text">
+                    Michael McFaul told Newsweek president will likely interpret his Senate success as proof "he knows
+                    best."
+                  </div>
                 </div>
               </article>
               <article class="bg-1 d-flex col-lg-12">
@@ -250,7 +259,7 @@
             </article>
           </section>
           <section class="latest-news col-lg-12">
-            <header class="section-header bg-1">LATEST NEWS/header>
+            <header class="section-header bg-1">LATEST NEWS</header>
             <article class="bg-2 d-flex">
               <img class="small-image h-auto align-self-center"
                 src="https://d.newsweek.com/en/full/1565548/brazil-nut-tree.jpg?w=397&h=265&f=41f1e1d0256b12f724c50f2d3d6d49a4">

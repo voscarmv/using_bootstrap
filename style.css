@@ -280,16 +280,72 @@ li, ul{
   color: red;
 }
 
-.article-header-sm{
+.article-header-small{
+  font-size: 17px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;  
+  text-decoration: none;
+}
+
+.article-header-small a{
+  color: black;
+  text-decoration: none;
+}
+
+.article-header-small a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.article-header-medium{
 
 }
 
-.article-header-md{
+.opinion-header{
 
 }
 
-.article-header-lg{
+.culture-header{
+  font-family: Lora, serif;
+  font-size: 20px;
+  color: black;
+}
 
+.culture-header a{
+  text-decoration: none;
+  color: black;
+}
+
+.culture-article{
+  background-color: lightgrey;
+}
+
+.culture-articles{
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.article-header-large{
+  font-size: 24px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;  
+}
+
+.article-header-large a{
+  color: black;
+  text-decoration: none;
+}
+
+.article-header-large a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.article-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 .header-date{
@@ -314,6 +370,10 @@ color: black;
 
 .red-text{
   color:red;
+}
+
+.gray-text{
+  color: gray;
 }
 
 .red-highlight-text{
