@@ -201,6 +201,9 @@ background-color: yellowgreen;
 
 .culture-category{
   background-color: gray;
+  font-size: 13px;
+  font-family:  Helvetica, Arial,sans-serif;
+  padding: 3px;
 }
 
 .icon-image{
@@ -322,8 +325,8 @@ li, ul{
 }
 
 .culture-articles{
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .article-header-large{
@@ -352,6 +355,7 @@ li, ul{
   font-size: 16px;
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   color: white;
+  margin-left: 30px;
 }
 
 .signin-subscribe{
@@ -390,4 +394,28 @@ color: black;
   background-color: rgba(240,240,240,.7);
   /* opacity: 0.1; */
   padding: 8px;
+}
+
+.opinion-author{
+  font-size: 14px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #777777;
+}
+
+.opinion-header{
+  font-size: 17px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.opinion-article{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px lightgray;
+}
+
+.border-none{
+  border: none;
 }
