@@ -549,11 +549,14 @@ color: black;
 .subscribe-content{
   background-color: lightgray;
   padding: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .subscribe-newsletter-content{
   border: solid 1px lightgray;
-  /* margin-left: 0; */
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .picture-container{
