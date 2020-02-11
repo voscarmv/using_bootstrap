@@ -129,6 +129,15 @@ body{
   /* margin: 15px; */
   padding-left: 40px;
   padding-right: 40px;
+  background-color: lightgray;
+}
+
+.row{
+  background-color: white;
+}
+
+.bg-red{
+  background-color: red;
 }
 
 .mobile-navbar{
