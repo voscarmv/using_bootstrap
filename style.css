@@ -499,3 +499,28 @@ color: black;
 .in-magazine-categories{
   font-size: 16px;
 }
+
+.box-bg{
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 70px;
+  height: 52px;
+}
+
+.box-number{
+  margin-left: 22px;
+  margin-top: 8px;
+}
+
+.box-bg:hover{
+  text-decoration: none;
+  color: red;
+}
+
+.horizontal-separator{
+  height: 1px;
+  background-color: lightgray;
+  margin: 8px 0 8px 0;
+}
