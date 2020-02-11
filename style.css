@@ -256,6 +256,7 @@ body{
   background-position: center center;
   height: 25vw;
   min-height: 300px;
+  margin-bottom: 10px;
 }
 
 .subscribe-covers{
@@ -451,12 +452,15 @@ color: black;
   background-color: red;
   color: white;
   padding: 3px 10px 3px 10px;
+  line-height: 30px;
+  /* line-height: 15px; */
 }
 
 .white-highlight-text{
   background-color: white;
   color: red;
   padding: 3px 10px 3px 10px;
+  line-height: 30px;
 }
 
 .article-tag-gray{
@@ -540,6 +544,20 @@ color: black;
   height: 1px;
   background-color: lightgray;
   margin: 8px 0 8px 0;
+}
+
+.subscribe-content{
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.subscribe-newsletter-content{
+  border: solid 1px lightgray;
+  margin-left: 0;
+}
+
+.picture-container{
+  padding-left: 0;
 }
 
 .subscribe-button{
