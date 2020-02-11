@@ -1,4 +1,4 @@
-.bg-1 {
+/* .bg-1 {
   background-color: #ff0000;
 }
 
@@ -20,7 +20,7 @@
 
 .bg-6{
   background-color: #ff00ff;
-}
+} */
 
 /*
 
@@ -85,7 +85,7 @@ $ cat index.html | grep '<section class="' | sed 's/.*section class="/\./;s/">/ 
   background-color: darkred;
 }
 */
-.subscribe-newsletter {
+/* .subscribe-newsletter {
   background-color: magenta;
 }
 
@@ -95,7 +95,7 @@ $ cat index.html | grep '<section class="' | sed 's/.*section class="/\./;s/">/ 
 
 .newsletter {
   background-color: mediumpurple;
-}
+} */
 /*
 .page-footer {
   background-color: yellow;
