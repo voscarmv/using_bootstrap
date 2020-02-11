@@ -313,9 +313,9 @@ li a:hover{
 }
 
 .burger-bar{
-    width: 35px;
-    height: 5px;
-    background-color: black;
+    width: 25px;
+    height: 2px;
+    background-color: rgba(255,255,255,0.5);
     margin: 6px 0;
 }
 
@@ -587,4 +587,9 @@ color: black;
 .social-icon{
   width: 25px;
   margin: 0 8px 0 8px;
+}
+
+.transparent-button{
+  border: none;
+  background: none;
 }
