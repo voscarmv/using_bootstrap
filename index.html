@@ -30,8 +30,8 @@
           </svg>
         </div>
         <div class="signin-subscribe roboto-bold d-flex justify-content-end align-items-end bg-6">
-          <div class="bg-1 white-text">SIGN IN</div>
-          <div class="bg-2 red-text">SUBSCRIBE &gt;</div>
+          <div class="bg-1 red-highlight-text">SIGN IN</div>
+          <div class="bg-2 white-highlight-text">SUBSCRIBE &gt;</div>
         </div>
       </div>
     </header>
@@ -67,8 +67,8 @@
         </svg>
             </div>
       <div class="signin-subscribe roboto-bold d-flex justify-content-center align-items-center bg-6">
-        <div class="bg-1">SIGN IN</div>
-        <div class="bg-2">SUBSCRIBE &gt;</div>
+        <div class="bg-1 red-highlight-text">SIGN IN</div>
+        <div class="bg-2 white-highlight-text">SUBSCRIBE &gt;</div>
         <button>
           <div class="burger-bar"></div>
           <div class="burger-bar"></div>
@@ -310,11 +310,11 @@
           <div class="main-section-header roboto-bold roboto-bold magazin-heading d-flex justify-content-center h-auto bg-4 col-md-12">IN THE MAGAZINE</div>
           <article class="in-magazine-article bg-2 col-md-4 h-100">
             <div class="cover-picture"></div>
-            <div class="bg-6">
-              <span class="">FEATURES</span>
-              <span>TECH & SCIENCE</span>
+            <div class="bg-6 roboto-bold in-magazine-categories">
+              <span class="red-highlight-text">FEATURES</span>
+              <span class="white-highlight-text">TECH & SCIENCE</span>
             </div>
-            <h2 class="bg-5">Five Biggest Tech Trends From CES 2020</h2>
+            <h2 class="bg-5 article-header-medium"><a href="#">Five Biggest Tech Trends From CES 2020</a></h2>
           </article>
           <article class="in-magazine-article bg-2 col-md-4 h-100">
             <div class="cover-picture"></div>
@@ -783,37 +783,40 @@
       </aside>
     </section>
     <section class="subscribe-newsletter row">
-      <section class="subscribe col-md-8">
+      <section class="subscribe col-12 col-lg-8">
         <header class="section-header roboto-bold red-text bg-5 col-lg-12">
           SUBSCRIBE
         </header>
-        <div class="subscribe-content d-flex">
-          <div class="subscribe-covers">
+        <div class="subscribe-content d-flex row">
+          <div class="covers-container col-12 col-md-6 d-flex justify-content-center align-items-center">
+          <div class="subscribe-covers bg-2">
             <img class="article-image subscribe-bottom"
               src="https://d.newsweek.com/en/full/1563281/february-7-2020-cover.jpg?w=170&q=95&f=65b7533b0137978d446aa40a1c50692a">
             <img class="article-image subscribe-top"
               src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&q=95&f=c1d5601167747525a4d15e56749350ec">
           </div>
-          <div class="d-flex flex-column">
-            <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-            <span>All Access + Weekly Delivery.</span>
-            <span>Choose A Membership That's Perfect for You!</span>
-            <button>SUBSCRIBE &gt;</button>
+        </div>
+          <div class="d-flex flex-column col-12 col-md-6">
+            <h3  class="text-center text-md-left">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+            <span class="text-center text-md-left">All Access + Weekly Delivery.</span>
+            <span class="text-center text-md-left">Choose A Membership That's Perfect for You!</span>
+            <button class="align-self-center align-self-md-start">SUBSCRIBE &gt;</button>
           </div>
         </div>
       </section>
-      <section class="newsletter col-md-4">
+      <section class="newsletter col-12 col-lg-4">
         <header class="section-header roboto-bold red-text bg-5 col-lg-12">
           NEWSLETTER
         </header>
-        <div class="subscribe-content d-flex">
+        <div class="subscribe-content d-flex row">
+          <div class="picture-container  col-12 col-md-6">
           <div class="newsletter-picture"></div>
-
-          <div class="d-flex flex-column">
-            <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-            <span>All Access + Weekly Delivery.</span>
-            <span>Choose A Membership That's Perfect for You!</span>
-            <button>SUBSCRIBE &gt;</button>
+        </div>
+          <div class="d-flex flex-column  col-12 col-md-6">
+            <h3 class="text-center text-md-left">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+            <span class="text-center text-md-left">All Access + Weekly Delivery.</span>
+            <span class="text-center text-md-left">Choose A Membership That's Perfect for You!</span>
+            <button class="align-self-center align-self-md-start">SUBSCRIBE &gt;</button>
           </div>
         </div>
       </section>
