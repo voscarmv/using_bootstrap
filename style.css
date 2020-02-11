@@ -524,3 +524,23 @@ color: black;
   background-color: lightgray;
   margin: 8px 0 8px 0;
 }
+
+.subscribe-button{
+  border:none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: red;
+  padding: 8px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 19px;
+  /* font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; */
+}
+
+.subscribe-button:hover{
+  background-color: darkred;
+}
+
+.copyright{
+  font-size: 12px;
+}
