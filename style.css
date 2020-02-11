@@ -118,7 +118,7 @@ background-color: yellowgreen;
 }
 
 .inline-menu{
-  /* display: flex; */
+  margin-top: 20px;
 }
 
 .container-fluid{
@@ -286,9 +286,30 @@ background-color: yellowgreen;
   min-height: 200px;
 }
 
-li, ul{
+ul{
   list-style: none;
   padding-left: 0;
+}
+
+li{
+  padding: 0 5px 0 5px;
+  border-right: solid 1px gray;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+li a{
+  text-decoration: none;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+li a:hover{
+  text-decoration: none;
+  color: black;
 }
 
 .burger-bar{
@@ -543,4 +564,27 @@ color: black;
 
 .copyright{
   font-size: 12px;
+}
+
+.features-link{
+
+}
+
+.features-link{
+  border:none;
+  background-color: lightgray;
+  padding: 8px;
+  color: black;
+  /* font-weight: bold; */
+  font-size: 19px;
+  /* font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; */
+}
+
+.features-link:hover{
+  background-color: gray;
+}
+
+.social-icon{
+  width: 25px;
+  margin: 0 8px 0 8px;
 }
