@@ -82,7 +82,7 @@ li a {
   position: relative;
 }
 
-.menu-wrap:before {
+.menu-wrap::before {
   content: "";
   position: absolute;
   top: 0;
@@ -177,7 +177,7 @@ li a:hover {
 
 .signup-text {
   font-size: 19px;
-  color: #222222;
+  color: #222;
   line-height: 19px;
 }
 
@@ -362,13 +362,13 @@ li {
 .article-tag-gray {
   font-size: 18px;
   color: red;
-  background-color: rgba(240, 240, 240, .7);
+  background-color: rgba(240, 240, 240, 0.7);
   padding: 8px;
 }
 
 .opinion-author {
   font-size: 14px;
-  color: #777777;
+  color: #777;
 }
 
 .opinion-header {
@@ -518,8 +518,8 @@ li {
   margin-bottom: 10px;
 }
 
-section>h6,
-article>h6 {
+section > h6,
+article > h6 {
   position: absolute;
   top: -999px;
   left: -999px;
