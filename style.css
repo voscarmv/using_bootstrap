@@ -197,9 +197,8 @@ body{
   left:0;
 }
 
-.article-image{
-  /* width: 100%; */
-  /* align-self: center; */
+.article-cover-image{
+  width: 30vw;
 }
 
 .small-image{
@@ -272,12 +271,19 @@ body{
   padding-right: 150px;
   padding-bottom: 50px;
   position: relative;
+  width: 50vw;
+  background-color: orange;
 }
 
 .subscribe-top{
   position:absolute;
-  top:20px;
-  left: 100px;
+  top:2.5vw;
+  left: 15vw;
+}
+
+.covers-container{
+  /* width: 1%; */
+  /* background-color: yellow; */
 }
 
 .newsletter-picture{
@@ -318,7 +324,7 @@ li a:hover{
 }
 
 .burger-bar{
-    width: 25px;
+    width: 20px;
     height: 2px;
     background-color: rgba(255,255,255,0.5);
     margin: 6px 0;
@@ -436,7 +442,14 @@ li a:hover{
 
 .signin-subscribe{
   font-size: 18px;
-  margin-right: 10px;
+  margin-right: 8px;
+  /* font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; */
+  /* font-weight: bold; */
+}
+
+.signin-subscribe-mobile{
+  font-size: 16px;
+  /* margin-right: 8px; */
   /* font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; */
   /* font-weight: bold; */
 }
@@ -460,7 +473,7 @@ color: black;
 .red-highlight-text{
   background-color: red;
   color: white;
-  padding: 3px 10px 3px 10px;
+  padding: 3px 7px 3px 7px;
   line-height: 30px;
   /* line-height: 15px; */
 }
