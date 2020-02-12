@@ -681,3 +681,12 @@ color: black;
   border: none;
   background: none;
 }
+
+.magazin-heading{
+  margin-bottom: 10px;
+}
+
+.heading-bottom{
+  border-bottom: solid 1px light;
+  margin-bottom: 10px;
+}
