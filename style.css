@@ -711,3 +711,9 @@ color: black;
   border-bottom: solid 1px light;
   margin-bottom: 10px;
 }
+
+section>h6, article>h6{
+  position: absolute;
+  top:-999px;
+  left:-999px;
+}
