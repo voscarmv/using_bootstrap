@@ -272,7 +272,7 @@ body{
   padding-bottom: 50px;
   position: relative;
   width: 50vw;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .subscribe-top{
@@ -448,7 +448,7 @@ li a:hover{
 }
 
 .signin-subscribe-mobile{
-  font-size: 16px;
+  font-size: 14px;
   /* margin-right: 8px; */
   /* font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif; */
   /* font-weight: bold; */
@@ -481,7 +481,7 @@ color: black;
 .white-highlight-text{
   background-color: white;
   color: red;
-  padding: 3px 10px 3px 10px;
+  padding: 3px 7px 3px 7px;
   line-height: 30px;
 }
 
