@@ -590,6 +590,24 @@ color: black;
   margin: 8px 0 8px 0;
 }
 
+.horizontal-separator-big{
+  height: 1px;
+  background-color: lightgray;
+  margin: 16px 0 16px 0;
+}
+
+.empty-horizontal-separator{
+  height: 0;
+  background-color: lightgray;
+  margin: 8px 0 8px 0;
+}
+
+.empty-horizontal-separator-big{
+  height: 0;
+  background-color: lightgray;
+  margin: 16px 0 16px 0;
+}
+
 .subscribe-content{
   background-color: lightgray;
   padding: 20px;
