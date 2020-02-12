@@ -701,6 +701,7 @@ color: black;
 .transparent-button{
   border: none;
   background: none;
+  padding: 8px;
 }
 
 .magazin-heading{
