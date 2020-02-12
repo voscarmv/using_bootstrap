@@ -161,14 +161,27 @@ body{
 
 .navbar{
   background-color: white;
+  border-bottom: solid 1px lightgray;
+  height: 40px;
 }
 
 .menu-wrap{
   /* display: flex; */
-  padding: 12px;
-  margin-top: -20px;
+  padding: 10px;
+  margin-top: -35px;
   background-color: white;
+  position: relative;
 }
+
+.menu-wrap:before { 
+  content: ""; 
+  position: absolute;  
+  top: 0; right: 0; 
+  border-bottom: 27px solid transparent; 
+  border-left: 27px solid transparent; 
+  border-right: 27px solid red; 
+  width: 42px; height: 0; 
+} 
 
 .nav-item{
   /* background-color: red; */
@@ -180,7 +193,7 @@ body{
 
 .main-header{
   /* display: flex; */
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-top: 30px;
   background-color: red;
   /* justify-content: space-between; */
