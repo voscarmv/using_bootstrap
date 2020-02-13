@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/voscarmv/using_bootstrap/0e59f9b09110f7d4e7ef9a56a95bc85d395defa2/index.html)
+[Live Demo Link](https://rawcdn.githack.com/voscarmv/using_bootstrap/dc059a4662c491b5330072f8678c1f2abffe2b97/index.html)
 
 
 ## Getting Started
