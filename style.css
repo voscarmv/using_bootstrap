@@ -1,0 +1,545 @@
+li a {
+  text-decoration: none;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+.article-header-small a {
+  color: black;
+  text-decoration: none;
+}
+
+.article-header-medium a {
+  color: black;
+  text-decoration: none;
+}
+
+.culture-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-header-large a {
+  color: black;
+  text-decoration: none;
+}
+
+.opinion-header a {
+  color: black;
+  text-decoration: none;
+}
+
+.top-space-lg {
+  height: 190px;
+}
+
+.top-space {
+  height: 15px;
+}
+
+.inline-menu {
+  margin-top: 20px;
+}
+
+.container-fluid {
+  background-color: lightgray;
+}
+
+.nw-logo {
+  margin-left: 10px;
+}
+
+.row {
+  background-color: white;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.mobile-navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: red;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: solid 1px lightgray;
+  height: 45px;
+}
+
+.menu-wrap {
+  padding-top: 10px;
+  margin-top: -35px;
+  background-color: white;
+  position: relative;
+}
+
+.menu-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom: 27px solid transparent;
+  border-left: 27px solid transparent;
+  border-right: 27px solid red;
+  width: 42px;
+  height: 0;
+}
+
+.nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-item-search {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.main-header {
+  padding-bottom: 40px;
+  padding-top: 30px;
+  background-color: red;
+}
+
+.roboto-bold {
+  font-weight: bold;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+.article-picture {
+  position: relative;
+}
+
+.image-category {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.subscribe-covers {
+  position: relative;
+  width: 70%;
+  min-width: 200px;
+  max-width: 300px;
+  height: 240px;
+}
+
+.subscribe-top {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.subscribe-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.small-image {
+  width: 135px;
+  margin-right: 10px;
+}
+
+.culture-category {
+  background-color: gray;
+  font-size: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 3px;
+}
+
+.icon-image {
+  width: 30px;
+  height: auto;
+  background-color: red;
+  margin: 10px;
+}
+
+.signup-text {
+  font-size: 19px;
+  color: #222;
+  line-height: 19px;
+}
+
+.signup-button {
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: darkgray;
+  padding: 8px;
+  color: white;
+  font-size: 19px;
+}
+
+.signup-button:hover {
+  background-color: gray;
+}
+
+.small-link,
+.small-link:hover {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.cover-picture {
+  background-image: url(https://d.newsweek.com/en/full/1562430/fea-futuretechces-09-1198129532.jpg?w=466&h=311&q=90&f=130c3646b7506b034455b08ee3709740);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 25vw;
+  min-height: 300px;
+  margin-bottom: 10px;
+}
+
+.newsletter-picture {
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 0 5px 0 5px;
+  border-right: solid 1px gray;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.burger-bar {
+  width: 20px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 6px 0;
+}
+
+.navbar-text {
+  font-size: 19px;
+  color: black;
+}
+
+.section-header {
+  font-size: 16px;
+  color: gray;
+}
+
+.main-section-header {
+  font-size: 19px;
+  color: black;
+}
+
+.secondary-section-header {
+  font-size: 22px;
+  color: red;
+}
+
+.article-header-small {
+  font-size: 17px;
+  color: black;
+}
+
+.article-header-small a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.article-header-medium {
+  font-size: 20px;
+  color: black;
+}
+
+.article-header-medium a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.culture-header {
+  font-family: Lora, serif;
+  font-size: 20px;
+  color: black;
+}
+
+.culture-article {
+  background-color: lightgrey;
+}
+
+.culture-articles {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.article-header-large {
+  font-size: 24px;
+  color: black;
+}
+
+.article-header-large a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.article-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.header-date {
+  font-size: 16px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 30px;
+}
+
+.signin-subscribe {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.signin-subscribe-mobile {
+  font-size: 14px;
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.red-text {
+  color: red;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.red-highlight-text {
+  background-color: red;
+  color: white;
+  padding: 3px 7px 3px 7px;
+  line-height: 30px;
+}
+
+.white-highlight-text {
+  background-color: white;
+  color: red;
+  padding: 3px 7px 3px 7px;
+  line-height: 30px;
+}
+
+.article-tag-gray {
+  font-size: 18px;
+  color: red;
+  background-color: rgba(240, 240, 240, 0.7);
+  padding: 8px;
+}
+
+.opinion-author {
+  font-size: 14px;
+  color: #777;
+}
+
+.opinion-header {
+  font-size: 17px;
+  color: black;
+}
+
+.opinion-header a:hover {
+  color: red;
+}
+
+.opinion-article,
+.latest-article,
+.more-article {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px lightgray;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-top {
+  border-top: solid 1px lightgray;
+}
+
+.signup-section {
+  border: solid 1px gray;
+  background-color: lightgray;
+  margin: 20px;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.in-magazine-categories {
+  font-size: 16px;
+}
+
+.box-bg {
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 70px;
+  height: 52px;
+}
+
+.box-number {
+  margin-left: 22px;
+  margin-top: 8px;
+}
+
+.box-bg:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.horizontal-separator {
+  height: 1px;
+  background-color: lightgray;
+  margin: 8px 0 8px 0;
+}
+
+.horizontal-separator-big {
+  height: 1px;
+  background-color: lightgray;
+  margin: 32px 0 32px 0;
+}
+
+.empty-horizontal-separator {
+  height: 18px;
+}
+
+.empty-horizontal-separator-big {
+  height: 80px;
+}
+
+.subscribe-content {
+  background-color: lightgray;
+  padding: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.subscribe-newsletter-content {
+  border: solid 1px lightgray;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.picture-container {
+  padding-left: 0;
+}
+
+.subscribe-button {
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: red;
+  padding: 8px;
+  color: white;
+  font-size: 19px;
+}
+
+.subscribe-button:hover {
+  background-color: darkred;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.features-link {
+  border: none;
+  background-color: lightgray;
+  padding: 8px;
+  color: black;
+  font-size: 19px;
+}
+
+.features-link:hover {
+  background-color: gray;
+}
+
+.social-icon {
+  width: 25px;
+  margin: 0 8px 0 8px;
+}
+
+.transparent-button {
+  border: none;
+  background: none;
+  padding: 8px;
+}
+
+.magazin-heading {
+  margin-bottom: 10px;
+}
+
+.heading-bottom {
+  border-bottom: solid 1px lightgray;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+
+section > h6,
+article > h6 {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+}
+
+.opinion-image {
+  margin-right: 10px;
+}
+
+.svg-logo-1 {
+  enable-background: new 0 0 395.6 60;
+  height: 70px;
+  fill: white;
+}
+
+.icon-1 {
+  width: 20px;
+}
+
+.svg-logo-2 {
+  enable-background: new 0 0 395.6 60;
+  height: 20px;
+  fill: white;
+}
