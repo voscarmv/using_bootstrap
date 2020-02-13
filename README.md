@@ -1,16 +1,24 @@
-# Project Name
+# A responsive [Newsweek.com](www.newsweek.com) clone using [Bootstrap](https://getbootstrap.com/)
 
-> One paragraph statement about the project.
+> In this project, I got to try out Twitter’s Bootstrap framework by building a site that actually uses it – Newsweek.
 
-![screenshot](./app_screenshot.png)
+## Desktop view
 
-Additional description about the project and its features.
+![screenshot](./app_screenshot0.png)
+
+## Tablet view
+
+![screenshot](./app_screenshot1.png)
+
+## Mobile With
+
+![screenshot](./app_screenshot2.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
+- Twitter Bootstrap
 
 ## Live Demo
 
@@ -19,38 +27,14 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**The elements on the webpage don't work. It's only to showcase my HTML/CSS coding skills.**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
+## Author
 
 **Oscar Mier**
 - Github: [@voscarmv](https://github.com/voscarmv)
 - Twitter: [@voscarmv](https://twitter.com/voscarmv)
 - Linkedin: [Oscar Mier](https://www.linkedin.com/in/oscar-mier-072984196/) 
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,9 +49,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to [Microverse](https://www.microverse.org/?grsf=xb25xf)
+- Thanks to [The Odin Project](https://www.theodinproject.com/)
+- Thanks to [Newsweek](www.newsweek.com) for letting us clone it's homepage!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
