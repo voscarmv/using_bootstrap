@@ -72,11 +72,11 @@ li a {
 .navbar {
   background-color: white;
   border-bottom: solid 1px lightgray;
-  height: 40px;
+  height: 45px;
 }
 
 .menu-wrap {
-  padding: 10px;
+  padding-top: 10px;
   margin-top: -35px;
   background-color: white;
   position: relative;
@@ -95,9 +95,13 @@ li a {
 }
 
 .nav-item {
-  padding-left: 12px;
-  padding-right: 12px;
-  border-left: 1px solid gray;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav-item a{
+  font-size: 17px;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 }
 
 li a:hover {
@@ -159,6 +163,7 @@ li a:hover {
 
 .small-image {
   width: 135px;
+  margin-right: 10px;
 }
 
 .culture-category {
@@ -523,4 +528,8 @@ article > h6 {
   position: absolute;
   top: -999px;
   left: -999px;
+}
+
+.opinion-image{
+  margin-right: 10px;
 }
