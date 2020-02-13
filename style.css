@@ -1,24 +1,3 @@
-/* .bg-1{
-  background-color: red;
-}
-.bg-2{
-  background-color: green;
-}
-.bg-3{
-  background-color: blue;
-}
-
-.bg-4{
-  background-color: violet;
-}
-.bg-5{
-  background-color: aqua;
-}
-.bg-6{
-  background-color: yellow;
-} */
-
-
 li a {
   text-decoration: none;
   color: gray;
@@ -120,7 +99,7 @@ li a {
   padding-right: 5px;
 }
 
-.nav-item a{
+.nav-item a {
   font-size: 17px;
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
 }
@@ -551,14 +530,14 @@ article > h6 {
   left: -99999px;
 }
 
-.opinion-image{
+.opinion-image {
   margin-right: 10px;
 }
 
 .svg-logo-1 {
-  enable-background:new 0 0 395.6 60;
+  enable-background: new 0 0 395.6 60;
   height: 70px;
-  fill:white;
+  fill: white;
 }
 
 .icon-1 {
@@ -566,14 +545,7 @@ article > h6 {
 }
 
 .svg-logo-2 {
-  enable-background:new 0 0 395.6 60;
-  height: 20px;
-  fill:white;
-}
-
-.svg-logo-3 {
   enable-background: new 0 0 395.6 60;
-  height: 36px;
-  width: 236px;
-  fill:red;
+  height: 20px;
+  fill: white;
 }
