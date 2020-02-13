@@ -533,3 +533,26 @@ article > h6 {
 .opinion-image{
   margin-right: 10px;
 }
+
+.svg-logo-1 {
+  enable-background:new 0 0 395.6 60;
+  height: 70px;
+  fill:white;
+}
+
+.icon-1 {
+  width:20px;
+}
+
+.svg-logo-2 {
+  enable-background:new 0 0 395.6 60;
+  height: 20px;
+  fill:white;
+}
+
+.svg-logo-3 {
+  enable-background: new 0 0 395.6 60;
+  height: 36px;
+  width: 236px;
+  fill:red;
+}
