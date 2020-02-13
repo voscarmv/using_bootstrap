@@ -1,3 +1,24 @@
+/* .bg-1{
+  background-color: red;
+}
+.bg-2{
+  background-color: green;
+}
+.bg-3{
+  background-color: blue;
+}
+
+.bg-4{
+  background-color: violet;
+}
+.bg-5{
+  background-color: aqua;
+}
+.bg-6{
+  background-color: yellow;
+} */
+
+
 li a {
   text-decoration: none;
   color: gray;
@@ -40,7 +61,7 @@ li a {
 }
 
 .top-space {
-  height: 65px;
+  height: 15px;
 }
 
 .inline-menu {
@@ -526,8 +547,8 @@ li {
 section > h6,
 article > h6 {
   position: absolute;
-  top: -999px;
-  left: -999px;
+  top: -99999px;
+  left: -99999px;
 }
 
 .opinion-image{
