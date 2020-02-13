@@ -517,7 +517,8 @@ li {
   padding-bottom: 8px;
 }
 
-section > h6, article > h6 {
+section > h6,
+article > h6 {
   position: absolute;
   top: -99999px;
   left: -99999px;
