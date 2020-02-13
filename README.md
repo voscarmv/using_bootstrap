@@ -10,7 +10,7 @@
 
 ![screenshot](./app_screenshot1.png)
 
-## Mobile With
+## Mobile view
 
 ![screenshot](./app_screenshot2.png)
 
