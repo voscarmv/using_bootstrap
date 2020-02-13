@@ -438,19 +438,15 @@ li {
 .horizontal-separator-big {
   height: 1px;
   background-color: lightgray;
-  margin: 16px 0 16px 0;
+  margin: 32px 0 32px 0;
 }
 
 .empty-horizontal-separator {
-  height: 0;
-  background-color: lightgray;
-  margin: 8px 0 8px 0;
+  height: 18px;
 }
 
 .empty-horizontal-separator-big {
-  height: 0;
-  background-color: lightgray;
-  margin: 16px 0 16px 0;
+  height: 80px;
 }
 
 .subscribe-content {
@@ -516,8 +512,9 @@ li {
 }
 
 .heading-bottom {
-  border-bottom: solid 1px light;
-  margin-bottom: 10px;
+  border-bottom: solid 1px lightgray;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
 }
 
 section > h6,
